@@ -27,9 +27,7 @@ export default function Schedule() {
                 </View>
 
                 <View style={styles.section}>
-                    {/* Não há necessidade de desenvolver o modal com a lista de
-                    servidores — o professor pediu só essa versão com um
-                    servidor já selecionado, então o card abaixo é fixo. */}
+                    {/* o card abaixo é fixo. */}
                     <SelectedServerCard
                         name="Valorosos"
                         game="Valorant"

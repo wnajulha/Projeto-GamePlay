@@ -1,0 +1,20 @@
+src/
+├── app/                    → TELAS (uma rota por arquivo, via Expo )
+│   ├── _layout.tsx         → layout raiz (carrega fontes, splash screen)
+│   ├── index.tsx           → rota "/" → tela de Login
+│   ├── home.tsx            → rota "/home"
+│   ├── schedule.tsx        → rota "/schedule"
+│   └── game/[id].tsx       → rota dinâmica "/game/:id"
+├── components/             → COMPONENTES reutilizáveis, agrupados por tela
+│   ├── icons.tsx           → ícones SVG usados em várias telas
+│   ├── discord-button.tsx  → botão genérico
+│   ├── screen-header.tsx   → cabeçalho genérico (usado em schedule e game)
+│   ├── home/               → componentes só da Home
+│   ├── schedule/           → componentes só da tela de agendar
+│   └── game/                → componentes só da tela de detalhes
+└── data/                   → dados mockados
+
+
+router.push(\/game/${game.id}`)— isso é o que conecta com a rota dinâmicagame/[id].tsx`.
+
+Duvivida, de onde ta vindo a descrição-> game data

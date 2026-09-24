@@ -1,7 +1,7 @@
-import { Image, Text, StyleSheet } from "react-native";
+import { DiscordButton } from "@/components/discord-button";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
-import { DiscordButton } from "@/components/discord-button";
+import { Image, StyleSheet, Text } from "react-native";
 
 export function Login() {
     return (
@@ -44,30 +44,30 @@ const styles = StyleSheet.create({
     },
     union: {
         position: 'absolute',
-        top: 100,
+        top: 130,
         left: 0,
         width: 375,
         height: 360,
     },
     character: {
         position: 'absolute',
-        top: 114.51,
+        top: 134,
         left: 72,
         width: 250,
         height: 297,
     },
     heroFade: {
         position: 'absolute',
-        top: 380.51,
+        top: 420,
         left: 0,
         width: 375,
         height: 127,
     },
     titletext: {
         position: 'absolute',
-        top: 394.51,
+        top: 420,
         left: 0,
-        width: 375,
+        width: 380,
         fontFamily: 'Rajdhani_700Bold',
         fontSize: 40,
         lineHeight: 40,
@@ -76,18 +76,18 @@ const styles = StyleSheet.create({
     },
     subtitletext: {
         position: 'absolute',
-        top: 530.51,
+        top: 555,
         left: 0,
         width: 375,
         fontFamily: 'Inter_400Regular',
-        fontSize: 15,
+        fontSize: 13,
         lineHeight: 25,
         color: '#DDE3F0',
         textAlign: 'center',
     },
     button: {
         position: 'absolute',
-        top: 628.51,
+        top: 675,
         left: 51,
         right: 50,
     },

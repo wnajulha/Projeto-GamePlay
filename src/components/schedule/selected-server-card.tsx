@@ -53,6 +53,6 @@ const styles = StyleSheet.create({
     },
     chevron: {
         fontSize: 20,
-        color: "#DDE3F0",
+        color: "#ddf0dd",
     },
 });
