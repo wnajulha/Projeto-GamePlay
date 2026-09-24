@@ -1,4 +1,4 @@
-import { Player } from "../components/match/player-row";
+import { Player } from "../components/game/player-row";
 
 export const PLAYERS: Player[] = [
     {
